@@ -1,3 +1,7 @@
+## Management System
+강의를 보면서 node.js를 공부하며 시스템을 구축하고 응용하여
+내 프로젝트를 만드는게 목적입니다.
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
