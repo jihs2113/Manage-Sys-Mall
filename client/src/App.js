@@ -42,11 +42,29 @@ props or state => shouldComponentUpdate()
 
 class App extends React.Component {
 
-  state = {
-    customer: "",
-    completed: 0
-    //로딩 게이지가 0~100까지
+  constructor(props) {
+    super(props);
+    this.state = {
+      customer: '',
+      completed: 0
+    }
   }
+
+  stateRefresh = () =>{
+    this.setState({
+      customer: '',
+      completed: 0
+    });
+    this.callApi()
+    .then(res => this.setState({customer: res}))
+    .catch(err => console.log(err));
+  }
+
+  // state = {
+  //   customer: "",
+  //   completed: 0
+  //   //로딩 게이지가 0~100까지
+  // }
 
   componentDidMount(){
     //api를 비동기적으로 불러온다
@@ -83,6 +101,7 @@ class App extends React.Component {
             <TableCell>생년월일</TableCell>
             <TableCell>성별</TableCell>
             <TableCell>직업</TableCell>
+            <TableCell>설정</TableCell>
           </TableRow>
         </TableHead>
         <TableBody>
@@ -96,7 +115,7 @@ class App extends React.Component {
             birthday={list.birthday}
             gender={list.gender}
             job={list.job}
-          
+            stateRefresh={this.stateRefresh}
           />
           );
         }) : 
@@ -110,7 +129,7 @@ class App extends React.Component {
       </Table>
     
       </Paper>
-    <CustomerAdd/>
+    <CustomerAdd stateRefresh={this.stateRefresh}/>
     </div>
     );
   }
