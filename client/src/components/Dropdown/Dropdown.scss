@@ -1,0 +1,182 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.DropdownCheck {
+  position: relative;
+}
+
+.chHeaderWrapper {
+  display: flex;
+  align-items: center;
+  background: #eee;
+  text-align: left;
+  width: 100%;
+  height: 44px;
+  border-radius: 0.25em;
+  padding: 0.5em;
+  cursor: pointer;
+
+  .chLeft {
+    width: 10%;
+    zoom: 70%;
+    padding-left: 0.85em;
+
+    i {
+      color: green;
+    }
+  }
+
+  .chCenter {
+    text-align: center;
+    font-size: 0.875rem;
+    width: 80%;
+  }
+
+  .chRight {
+    width: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    i {
+      zoom: 80%;
+    }
+  }
+}
+
+.show {
+  position: absolute;
+  width: 100%;
+  z-index: 10;
+}
+
+.hide {
+  display: none;
+}
+
+.selected {
+  background: white;
+  height: 40px;
+  font-size: 0.875rem;
+}
+.chFlyout {
+  width: 100%;
+  background: white;
+}
+
+.unselected {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.25em 0.875em;
+}
+
+.unselected:hover {
+  cursor: pointer;
+  background: #eee;
+}
+
+.chli {
+  background: white;
+  height: 40px;
+  font-size: 0.875rem;
+}
+
+.selectedItem {
+  display: inline-block;
+}
+
+.optionSize {
+  font-size: 0.875rem;
+}
+
+/******DROPDOWN CATEGORY******/
+
+.DropdownCat {
+  position: relative;
+}
+
+.CatHeaderWrapper {
+  display: flex;
+  text-align: left;
+  width: 100%;
+  border-radius: 0.5em;
+  padding: 0.4em 1em;
+  border: 1px solid #dadbda;
+  cursor: pointer;
+
+  .left {
+    width: 90%;
+
+    .top {
+      font-size: 0.75rem;
+      color: #adadad;
+    }
+
+    .bottom {
+      .bleft {
+        font-size: 1.125rem;
+        margin-right: 0.8em;
+      }
+
+      .bright {
+        font-size: 0.875rem;
+        color: #6f6f6f;
+      }
+    }
+  }
+
+  .right {
+    width: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+.CatShow {
+  position: absolute;
+  width: 100%;
+  z-index: 10;
+}
+
+.CatHide {
+  display: none;
+}
+
+.CatFlyout {
+  width: 100%;
+  max-width: 320px;
+  background: white;
+  border-radius: 0.25em;
+  box-shadow: 0px 0px 7px 0px rgb(213, 213, 213);
+}
+.CatSelected {
+  width: 100%;
+  height: 40px;
+  font-size: 0.875rem;
+}
+
+.Catli {
+  width: 100%;
+  height: 40px;
+  font-size: 0.875rem;
+}
+
+.Catli:hover {
+  cursor: pointer;
+  background: #eee;
+}
+
+.CatEach {
+  font-size: 0.875rem;
+  padding-left: 0.3em;
+}
+
+.CatSize {
+  color: #adadad;
+  padding-right: 0.5em;
+}
