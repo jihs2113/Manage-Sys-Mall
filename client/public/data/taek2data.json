@@ -1,0 +1,214 @@
+{
+  "products": [
+    {
+      "product_number": 92585004,
+      "collection": "ORIGINAL",
+      "title": "A TRAVEL ICON",
+      "name": "Truck XL",
+      "size": "80 x 44 x 46",
+      "weight": "4.3 kg",
+      "volume": "35 L",
+      "materials": {
+        "outside": "aluminium",
+        "inside": "polyester",
+        "handles": "leather",
+        "wheels": "hard plastic",
+        "dividers": "polyester"
+      },
+      "amount": 1530,
+      "currency": "euro",
+      "colors": {
+        "red": {
+          "name": "red",
+          "img_url": "https://www.rimowa.com/on/demandware.static/-/Sites-rimowa-master-catalog-final/default/dw10d5f1a0/images/swatch/red_twist.png"
+        },
+        "blue": {
+          "name": "blue",
+          "img_url": "https://www.rimowa.com/on/demandware.static/-/Sites-rimowa-master-catalog-final/default/dw5b775a9d/images/swatch/blue_twist.png"
+        },
+        "brown": {
+          "name": "brown",
+          "img_url": "https://www.rimowa.com/on/demandware.static/-/Sites-rimowa-master-catalog-final/default/dw36b7c7fd/images/swatch/cognac_twist.png"
+        }
+      },
+      "colorPalette": [
+        "#bab691",
+        "#e6e6e6",
+        "#A63E48",
+        "#376082",
+        "#54abdc",
+        "#000000",
+        "#c70718"
+      ],
+      "img_url": "https://www.rimowa.com/on/demandware.static/-/Sites-rimowa-storefront-final/default/dwcdbcebe5/images/category_megamenu/1_ORIGINAL.png"
+    },
+    {
+      "product_number": 92585004,
+      "collection": "ESSENTLAL",
+      "title": "FLEXIBLITY BUILT TO MATCH",
+      "name": "Truck XL",
+      "size": "80 x 44 x 46",
+      "weight": "4.3 kg",
+      "volume": "35 L",
+      "materials": {
+        "outside": "aluminium",
+        "inside": "polyester",
+        "handles": "leather",
+        "wheels": "hard plastic",
+        "dividers": "polyester"
+      },
+      "amount": 1530,
+      "currency": "euro",
+      "colors": {
+        "red": {
+          "name": "red",
+          "img_url": "https://www.rimowa.com/on/demandware.static/-/Sites-rimowa-master-catalog-final/default/dw10d5f1a0/images/swatch/red_twist.png"
+        },
+        "blue": {
+          "name": "blue",
+          "img_url": "https://www.rimowa.com/on/demandware.static/-/Sites-rimowa-master-catalog-final/default/dw5b775a9d/images/swatch/blue_twist.png"
+        },
+        "brown": {
+          "name": "brown",
+          "img_url": "https://www.rimowa.com/on/demandware.static/-/Sites-rimowa-master-catalog-final/default/dw36b7c7fd/images/swatch/cognac_twist.png"
+        }
+      },
+      "colorPalette": [
+        "#bab691",
+        "#e6e6e6",
+        "#A63E48",
+        "#376082",
+        "#54abdc",
+        "#000000",
+        "#c70718"
+      ],
+      "img_url": "https://www.rimowa.com/on/demandware.static/-/Sites-rimowa-storefront-final/default/dw33206832/images/category_megamenu/essential_black_megamenu.png"
+    },
+    {
+      "product_number": 92585004,
+      "collection": "CLASSIC",
+      "title": "HERITAGE INSPIRED DESIGN",
+      "name": "Truck XL",
+      "size": "80 x 44 x 46",
+      "weight": "4.3 kg",
+      "volume": "35 L",
+      "materials": {
+        "outside": "aluminium",
+        "inside": "polyester",
+        "handles": "leather",
+        "wheels": "hard plastic",
+        "dividers": "polyester"
+      },
+      "amount": 1530,
+      "currency": "euro",
+      "colors": {
+        "red": {
+          "name": "red",
+          "img_url": "https://www.rimowa.com/on/demandware.static/-/Sites-rimowa-master-catalog-final/default/dw10d5f1a0/images/swatch/red_twist.png"
+        },
+        "blue": {
+          "name": "blue",
+          "img_url": "https://www.rimowa.com/on/demandware.static/-/Sites-rimowa-master-catalog-final/default/dw5b775a9d/images/swatch/blue_twist.png"
+        },
+        "brown": {
+          "name": "brown",
+          "img_url": "https://www.rimowa.com/on/demandware.static/-/Sites-rimowa-master-catalog-final/default/dw36b7c7fd/images/swatch/cognac_twist.png"
+        }
+      },
+      "colorPalette": [
+        "#bab691",
+        "#e6e6e6",
+        "#A63E48",
+        "#376082",
+        "#54abdc",
+        "#000000",
+        "#c70718"
+      ],
+      "img_url": "https://www.rimowa.com/on/demandware.static/-/Sites-rimowa-storefront-final/default/dw9cef6835/images/category_megamenu/6_CLASSIC.png"
+    },
+    {
+      "product_number": 92585004,
+      "collection": "ESSENTIAL LITE",
+      "title": "OUR LIGHTEST SUITCASE",
+      "name": "Truck XL",
+      "size": "80 x 44 x 46",
+      "weight": "4.3 kg",
+      "volume": "35 L",
+      "materials": {
+        "outside": "aluminium",
+        "inside": "polyester",
+        "handles": "leather",
+        "wheels": "hard plastic",
+        "dividers": "polyester"
+      },
+      "amount": 1530,
+      "currency": "euro",
+      "colors": {
+        "red": {
+          "name": "red",
+          "img_url": "https://www.rimowa.com/on/demandware.static/-/Sites-rimowa-master-catalog-final/default/dw10d5f1a0/images/swatch/red_twist.png"
+        },
+        "blue": {
+          "name": "blue",
+          "img_url": "https://www.rimowa.com/on/demandware.static/-/Sites-rimowa-master-catalog-final/default/dw5b775a9d/images/swatch/blue_twist.png"
+        },
+        "brown": {
+          "name": "brown",
+          "img_url": "https://www.rimowa.com/on/demandware.static/-/Sites-rimowa-master-catalog-final/default/dw36b7c7fd/images/swatch/cognac_twist.png"
+        }
+      },
+      "colorPalette": [
+        "#bab691",
+        "#e6e6e6",
+        "#A63E48",
+        "#376082",
+        "#54abdc",
+        "#000000",
+        "#c70718"
+      ],
+      "img_url": "https://www.rimowa.com/on/demandware.static/-/Sites-rimowa-storefront-final/default/dw8c21bb20/images/category_megamenu/3_ESSENTIALLITE.png"
+    },
+    {
+      "product_number": 92585004,
+      "collection": "HYBRID",
+      "title": "BEST OF BOTH WORLDS",
+      "name": "Truck XL",
+      "size": "80 x 44 x 46",
+      "weight": "4.3 kg",
+      "volume": "35 L",
+      "materials": {
+        "outside": "aluminium",
+        "inside": "polyester",
+        "handles": "leather",
+        "wheels": "hard plastic",
+        "dividers": "polyester"
+      },
+      "amount": 1530,
+      "currency": "euro",
+      "colors": {
+        "red": {
+          "name": "red",
+          "img_url": "https://www.rimowa.com/on/demandware.static/-/Sites-rimowa-master-catalog-final/default/dw10d5f1a0/images/swatch/red_twist.png"
+        },
+        "blue": {
+          "name": "blue",
+          "img_url": "https://www.rimowa.com/on/demandware.static/-/Sites-rimowa-master-catalog-final/default/dw5b775a9d/images/swatch/blue_twist.png"
+        },
+        "brown": {
+          "name": "brown",
+          "img_url": "https://www.rimowa.com/on/demandware.static/-/Sites-rimowa-master-catalog-final/default/dw36b7c7fd/images/swatch/cognac_twist.png"
+        }
+      },
+      "colorPalette": [
+        "#bab691",
+        "#e6e6e6",
+        "#A63E48",
+        "#376082",
+        "#54abdc",
+        "#000000",
+        "#c70718"
+      ],
+      "img_url": "https://www.rimowa.com/on/demandware.static/-/Sites-rimowa-storefront-final/default/dw261846fd/images/category_megamenu/Hybrid_White_megamenu.png"
+    }
+  ]
+}

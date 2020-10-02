@@ -1,0 +1,151 @@
+
+
+    .CabinLimited{
+        list-style: none;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 22%;
+        margin: 0 1em 6em 1em;
+        background-color: #f7f5f4;
+        border-radius: 6px;
+        
+        .LimitedThumb:hover{
+            color: #999;
+            position: relative;
+            display: flex;
+            text-align: center;
+            padding: 3em 0 2em;
+            transition: all 0.5s;
+            transform: scale(1.05);
+            
+            .LimitedBody{
+               
+                .ProductLink{
+                    color: #000;
+                    overflow: hidden;
+                    text-decoration: none;
+                    .ProductImage{
+                        padding-top: 1em;
+                        height: auto;
+                        position: relative;
+                        .LimitedImage{
+                            padding-top: 1em;
+                            border-style: none;
+                            max-width: 100%;
+                            display: inline;
+                            visibility: visible;
+                            min-height: 11.5em;
+                            opacity: 1;
+                        }
+                        
+                    }
+                    .ProductCat{
+                        font-size: 0.8rem;
+                        text-transform: uppercase;
+                        
+                        padding: 0 1.5em;
+                    }
+                    .ProductRyme{
+                        color: #0d0901;
+                        font-size: 1rem;
+                        font-weight: 500;
+                        line-height: 1.8rem;
+                        padding: 0.8em 0;
+                    }
+                }
+                .ProductPrice{
+                    font-size: 1rem;
+                    color: #b2ada6;
+                    margin-top: 0.5em;
+                    font-weight: 300;
+                    line-height: 1rem;
+                }
+                .ProductPromo{
+                    font-size: .8em;
+                    margin: .5em 0;
+                    text-transform: uppercase;
+                }
+            }
+            .LimitedWish{
+                width: 1.8em;
+                height: 1.8em;
+                position: absolute;
+                top: 1em;
+                right: 1em;
+                font-size: 1rem;
+                
+                cursor: pointer;
+                i{
+                    font-weight: 400;
+                }
+            }
+            .ProductSwatch{
+                max-width: 6.5em;
+                top: 1em;
+                left: 1.5em;
+                position: absolute;
+                .SwatchList{
+                    margin: 0;
+                    padding: 0;
+                    overflow: hidden;
+                    list-style: none;
+                    display: flex;
+                    li{
+                        height: 1.5em;
+                        a{
+                            pointer-events: none;
+                            cursor: default;
+                            display: inline-block;
+                            margin: 0;
+                            padding: 0.6em 0.4em;
+                            line-height: 0;
+                            color: #000;
+                            overflow: hidden;
+                            text-decoration: none;
+                            .SwatchImage{
+                                height: 0.8em;
+                                width: 0.8em;
+                                border-radius: 50%;
+                                border: none;
+                                padding: 0;
+                            }
+                        }
+                    }
+                }
+                
+            }
+            .ProductBadge{
+                display: flex;
+                position: absolute;
+                top: 3.5em;
+                left: 1.8em;
+                height: 2em;
+                width: 10em;
+                .IconTag{
+                    transform: rotate(45deg);
+                    box-sizing: border-box;
+                    height: 0.6em;
+                    width: 0.8em;
+                    border: 1px solid #1D1D1B;
+                    border-radius: 2px;
+                    margin-top: 0.3em;
+                    margin-right: 0.4em;
+                }
+                .TagName{
+                    margin-left: 0.4em;
+                    display: inline-block;
+                    height: 1.8em;
+                    width: 11em;
+                    color: #1D1D1B;
+                    font-family: "Favorit Light",Arial,sans-serif;
+                    font-size: 0.8em;
+                    font-weight: 300;
+                    
+                    line-height: 14px;
+                    text-align: left;
+                }
+            }
+        }
+    
+}

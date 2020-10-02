@@ -1,0 +1,618 @@
+.header{
+    max-width: 1360px;
+    width: calc(100% - 80px);
+    padding: 0 2em;
+    margin-right: auto;
+    margin-left: auto;
+    
+}
+.banner{
+    margin: 1em 0 0;
+    display: flex;
+    align-items: center;
+    background-color: black;
+    height: 9em;
+}
+/*네비게이션*/
+.navigation{
+    padding: 0 1em;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;//nav?banner?
+    width: 100%;
+
+}
+.ListMain{
+    border-top: 1px solid #f7f5f4;
+    min-height: 100vh;
+
+.ListTop{
+    height: 68px;
+    margin-bottom: 1.2em;
+    border-bottom: 1px solid #f7f5f4;
+    display: flex;
+    justify-content: center;
+    font-size: 0.8rem;
+    letter-spacing: 0.2rem;
+    z-index: 1;
+    .ListFilter{
+        display: flex;
+        justify-content: center;
+        position: relative;
+        width: 100%;
+        padding: 0 2em;
+        .StoreToggle{
+            margin: 3em;
+            text-transform: uppercase;
+            display: flex;
+            align-items: center;
+            border-bottom: 1px solid #b2ada6;
+            padding-bottom: 2.2em;
+            .ToggleButton{
+                cursor: pointer;
+                color: #0d0901;
+                background-color: transparent;
+                font-size: 0.7rem;
+                letter-spacing: 0.2rem;
+                border-color: transparent;
+                
+            }
+            .FilterDropdown{
+                width: 95%;
+                position: absolute;
+                left: 2.5em;
+                right: 1em;
+                top: 69px;
+                background-color: #fbfaf9;
+                transition: all .2s ease;
+                box-shadow: 0 100vw 0 100vw rgba(0,0,0,.5);
+                padding: 2em 0 0;
+                z-index: 2;
+                .DropdownBox{
+                    min-width: 1024px;
+                    max-width: 1360px;
+                    display: flex;
+                    flex-flow: row wrap;
+                    justify-content: space-between;
+                    width: 100%;
+                    flex-wrap: nowrap;
+                    padding: 0 2.8em;
+                    margin-right: auto;
+                    margin-left: auto;
+                    padding-bottom: .65em;
+                    position: relative;
+                    .ColorFilter{
+                        flex: 1;
+                        .ColorSwatches{
+                            list-style: none;
+                            margin: 1em 0;
+                            padding: 0;
+                            display: flex;
+                            flex-direction: column;
+                           
+                            .OneColor{
+                                display: flex;
+                                align-items: center;
+                                .PointColor{
+                                    overflow: hidden;
+                                    height: 1.4em;
+                                    padding: 0;
+                                    text-indent: -999em;
+                                    width: 1.4em;
+                                    margin-left: 0;
+                                    margin-right: 0.7em;
+                                    border-radius: 2px;
+                                    border: none;
+                                    text-decoration: none;
+                                }
+                                .PointName{
+                                    font-size: 0.8rem;
+                                    
+                                    color: #b2ada6;
+                                    list-style: none;
+                                    
+                                }
+
+                            }
+                        }
+                    }
+                    .PriceFilter{
+                        flex: 1;
+                        .PriceCheck{
+                            list-style: none;
+                            margin: 1em 0;
+                            padding: 0;
+                            display: flex;
+                            flex-direction: column;
+                            .OnePrice{
+                                display: flex;
+                                align-items: center;
+                                padding: 0.5em 0;
+                                .PointCheck{
+                                    width: 1.5em;
+                                    height: 1.5em;
+                                    background: #fff;
+                                    float: left;
+                                    border: 3px solid #fff;
+                                    
+                                    border-radius: 1px;
+                                }
+                                
+                                .PointPrice{
+                                    margin-left: 0.7em;
+                                    background-color: transparent;
+                                    list-style: none;
+                                    text-transform: uppercase;
+                                    text-decoration: none;
+                                    font-size: 0.8rem;
+                                    color: #b2ada6;
+                                }
+                            }
+                          
+                        }
+                    }
+                    .CollectionFilter{
+                        flex: 1;
+                        .CollectionCheck{
+                            list-style: none;
+                            margin: 1em 0;
+                            padding: 0;
+                            display: flex;
+                            flex-direction: column;
+                            .OneCollection{
+                                display: flex;
+                                align-items: center;
+                                padding: 0.5em 0;
+                                .PointCheck{
+                                    width: 14px;
+                                    height: 14px;
+                                    background: #fff;
+                                    float: left;
+                                    border: 3px solid #fff;
+                                    box-shadow: 0 0 0 1px #b2ada6;
+                                    border-radius: 1px;
+                                    
+                                }
+                                
+                                .PointCollection{
+                                    margin-left: 0.7em;
+                                    background-color: transparent;
+                                    list-style: none;
+                                    text-transform: uppercase;
+                                    text-decoration: none;
+                                    font-size: 0.8rem;
+                                    color: #b2ada6;
+                                }
+                            }
+                        }
+                    }
+
+                }
+                .DropdownSub{
+                    width: 100%;
+                    background-color: #f7f5f4;
+                    text-transform: uppercase;
+                    color: #0d0901;
+                    min-width: 1024px;
+                    max-width: 1360px;
+                    display: flex;
+                    flex-flow: row wrap;
+                    justify-content: space-between;
+                    flex-wrap: nowrap;
+                    padding: 1em 5em 1em 2.5em;
+                    margin-right: auto;
+                    margin-left: auto;
+                    position: relative;
+                    .CancleBox{
+                        .CancelBtn{
+                            background: 0 0;
+                            border: none;
+                            padding: 1em;
+                            border-radius: 4px;
+                            text-transform: uppercase;
+                            font-size: 0.7rem;
+                            line-height: 0.8em;
+                            letter-spacing: 0.2rem;
+                            overflow: hidden;
+                            cursor: pointer;
+                            display: inline-block;
+                            text-align: center;
+                            transition: all .3s ease
+                        }
+                    }
+                    .ApplyBox{
+                        .RESETBtn{
+                            margin-right: 0.7em;
+                            color: #000;
+                            border: 1px solid #000;
+                            background-color: transparent;
+                            display: block;
+                            line-height: 0.8em;
+                            background: 0 0;
+                            padding: 1em;
+                            border-radius: 4px;
+                            text-transform: uppercase;
+                            font-size: 0.7rem;
+                            letter-spacing: 0.2rem;
+                            overflow: hidden;
+                            cursor: pointer;
+                            display: inline-block;
+                            text-align: center;
+                            transition: all .3s ease
+                        }
+                        .APPLYBtn{
+                            border: none;
+                            padding: 1em;
+                            border-radius: 4px;
+                            text-transform: uppercase;
+                            font-size: 0.7rem;
+                            line-height: 0.7rem;
+                            letter-spacing: 0.2em;
+                            overflow: hidden;
+                            background: #000;
+                            color: #fff;
+                            cursor: pointer;
+                            display: inline-block;
+                            text-align: center;
+                            transition: all .3s ease
+                        }
+                    }
+                }
+
+            }
+    
+        }
+        .active{
+            cursor: pointer;
+            margin: 3em;
+            text-transform: uppercase;
+            display: flex;
+            align-items: center;
+            line-height: 4.5em;
+        .StoreSeller:hover{
+            cursor: pointer;
+            border-bottom: 1px solid #b2ada6;
+            background-color: transparent;
+            .Seller{
+                margin-bottom: 0;
+                color: #0d0901;
+                background-color: transparent;
+                font-size: 0.7rem;
+                letter-spacing: 0.2rem;
+                border-color: transparent;
+                .SortBy{
+                    color: #0d0901;
+                }
+            }
+          }
+        }
+        .active{
+            cursor: pointer;
+            margin: 3em;
+            text-transform: uppercase;
+            display: flex;
+            align-items: center;
+            line-height: 4.5em;
+        .RepairService:hover{
+            cursor: pointer;
+            border-bottom: 1px solid #b2ada6;
+           
+            .repair{
+                margin-bottom: 0;
+                color: #0d0901;
+                background-color: transparent;
+                font-size: 0.7rem;
+                letter-spacing: 0.2rem;
+                border-color: transparent;
+                .service{
+                    color: #0d0901;
+                }
+            }
+            
+        }
+      }
+    }
+
+}
+.MapContainer{
+    margin-top: 3em;
+    width: 100%;
+    margin: 0 auto;
+    //작업중
+    .SubTitle{
+        max-width: 630px;
+        margin: 0 auto;
+        display: flex;
+        text-align: center;
+        flex-direction: column;
+        h2{
+            font-weight: 400;
+            font-size: 2rem;
+            font-family: Helvetica;
+            margin: 0.8em 0;
+        }
+        p{
+            font-weight: 400;
+            font-size: 1.2rem;
+            font-family: Helvetica;
+            border: 0;
+            margin: 0;
+            padding: 0;
+            margin: 0 0.8em;
+        }
+    }
+    .MapTitle{
+        margin-top: 1.5em;
+        display: flex;
+        align-content: center;
+        align-items: center;
+        justify-content: center;
+        border-top: 1px solid black;
+        .CityName{
+            height: 6.5em;
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+            justify-content: center;
+            flex: 1;
+            margin: 0;
+        }
+        .CityPoint{
+            display: flex;
+            margin-right: 1.7em;
+        }
+    }
+    .GoogleMap{
+        width: 100%;
+        height: 400px;
+    }
+        .LocatorFilter{
+            .StoreOption{
+                text-transform: uppercase;
+                letter-spacing: 0.2em;
+                height: 4.5em;
+                background-color: #f7f5f4;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                margin: 0 0 1.3em;
+                .FilterLoc{
+                    display: flex;
+                    align-items: center;
+                    padding: 0.5em 0;
+                    margin-right: 2em;
+                    .LocCheck{
+                        width: 1.5em;
+                        height: 1.5em;
+                        background: #fff;
+                        float: left;
+                        border: 3px solid #fff;
+                        
+                        border-radius: 1px;
+                        
+                    }
+                    
+                    .LocName{
+                        margin-left: 0.7em;
+                        background-color: transparent;
+                        list-style: none;
+                        text-transform: uppercase;
+                        text-decoration: none;
+                        font-size: 0.8rem;
+                        color: black;
+                    }
+                }
+                
+            }
+        }
+    
+}
+.StoreContainer{
+    //작업중
+    .StoreCabin{
+        display: flex;
+        overflow: hidden;
+        padding: 0;
+        margin: 0;
+        padding-top: 3em;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: stretch;
+       
+        .CabinProduct{
+            width: 47%;
+            overflow: hidden;
+            margin: 0 1em 6em 1em;
+            text-align: center;
+            background-color: #f7f5f4;
+            border-radius: 6px;
+            
+            .Thumb:hover{
+                display: block;
+                height: 100%;
+                overflow: hidden;
+                transform: scale(1.1);
+                transition: all 0.5s;
+                text-decoration: none;
+                color: #0d0901;
+                
+                .ThumbTitle{
+                    margin: 2em 0 0 0;
+                    font-weight: 600; 
+                    font-size: 0.7rem; 
+                    color: #6f6f6f; 
+                    text-transform: uppercase;
+                    
+                }
+                .ThumbName{
+                    margin: 0.16em 0 0.6em 0;
+                    font-weight: 500;
+                    font-size: 1.5rem;
+                    line-height: 1.8rem;
+                    padding: 0.6em 0;
+                }
+                .Cta{
+                    font-weight: 600;
+                    font-size: 0.7rem;
+                    text-transform: uppercase;
+                    
+                }
+                .ThumbProduct{
+                    position: relative;
+                    height: 300px;
+                    mix-blend-mode: multiply;
+                    .Cabin{
+                        max-width: 1300px;
+                        bottom: -55%;
+                        position: absolute; 
+                        left: -9999px; 
+                        right: -9999px; 
+                        bottom: -121%; 
+                        width: 115%; 
+                        margin: auto;
+                    }
+                }
+            }
+        }
+        .StoreLimited{
+            list-style: none;
+            display: flex;
+            width: 22%;
+            margin: 0 1em 6em 1em;
+            background-color: #f7f5f4;
+            border-radius: 6px;
+    
+            .StoreThumb{
+                position: relative;
+                padding: 0;
+                border-radius: 6px;
+                width: 100%;
+                height: 100%;
+                background-color: #0D0900;
+                display: flex;
+                flex-direction: column;
+                
+                .StoreBody{
+                    position: relative;
+                    display: block;
+                    width: 100%;
+                    height: 308px;
+                    border-radius: 4px;
+                    color: #000;
+                    overflow: hidden;
+                    text-decoration: none;
+                    .StoreImg{
+                        height: 308px;
+                        width: 100%;
+                        position: relative;
+                        
+                       
+                    }
+                
+                }
+                .StoreFooter{
+                    color: #b2ada6;
+                    margin: 0 auto;
+                    display: flex;
+                    text-align: center;
+                    padding: 30px;
+                    .StoreNameBody{
+                        margin: .5rem 0 40px;
+                        .StoreName{
+                            margin-bottom: 16px;
+                            color: #fff;
+                            font-size: 18px;
+                            font-weight: 300;
+                            line-height: 28px;
+                            letter-spacing: 2px;
+                            .PartDetail{
+                                border: 0;
+                                margin: 0;
+                                padding: 0;
+                                color: #fff;
+                                
+    
+                            }
+                        }
+                        .StoreFloor{
+                            font-size: 18px;
+                            font-weight: 300;
+                            letter-spacing: 1px;
+                            line-height: 28px;
+                            .FloorDetail{
+                                border: 0;
+                                margin: 0;
+                                padding: 0;
+                                color: #b2ada6;
+                            }
+                        }
+                        .StoreCity{
+                            font-size: 18px;
+                            font-weight: 300;
+                            letter-spacing: 1px;
+                            line-height: 28px;
+                            
+                            .PartDetail{
+                                border: 0;
+                                margin: 0;
+                                padding: 0;
+                                color: #fff;
+                            }
+                        }
+                        .StoreCountry{
+                            font-weight: 300;
+                            letter-spacing: 1px;
+                            line-height: 28px;
+                            text-transform: uppercase;
+                            font-size: 12px;
+                            .FloorDetail{
+                                border: 0;
+                                margin: 0;
+                                padding: 0;
+                                color: #b2ada6;
+                            }
+                        }
+    
+                    }
+                    .StorePart{
+                        margin-top: 1rem;
+                        font-size: 11px;
+                        font-weight: 300;
+                        letter-spacing: 3px;
+                        position: absolute;
+                        bottom: 30px;
+                        left: 50%!important;
+                        transform: translateX(-50%);
+                        width: 100%;
+                        .CityDetail{
+                            border: 0;
+                            margin: 0;
+                            padding: 0;
+                            color: #fff;
+                            text-transform: uppercase;
+                            font-size: 12px;
+                            font-weight: 300;
+                            letter-spacing: 3px;
+                        }
+                    }
+                }
+    
+                .LimitedWish{
+                    width: 1.8em;
+                    height: 1.8em;
+                    position: absolute;
+                    top: 1em;
+                    right: 1em;
+                    font-size: 1rem;
+                    
+                    cursor: pointer;
+                    i{
+                        font-weight: 400;
+                    }
+                }
+            }  
+        }
+        
+      }
+    }
+}

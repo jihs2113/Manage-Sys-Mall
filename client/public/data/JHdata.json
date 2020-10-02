@@ -1,0 +1,461 @@
+{
+    "products": [
+      {
+        "product_number": 92585004,
+        "collection": "original",
+        "name": "Truck XL",
+        "size": "80 x 44 x 46",
+        "weight": "4.3 kg",
+        "volume": "35 L",
+        "price": "2.900,00",
+        "accName": "Iridescent Groove Case for iPhone XS",
+        "accPrice": "70,00",
+        "img":"https://www.rimowa.com/on/demandware.static/-/Sites-rimowa-master-catalog-final/default/dw2c1df555/images/medium/92590026_1.png",
+        "secondImg": "https://www.rimowa.com/on/demandware.static/-/Sites-rimowa-master-catalog-final/default/dw78f254ac/images/medium/92590026_2.png",
+        "accImg":"https://www.rimowa.com/on/demandware.static/-/Sites-rimowa-master-catalog-final/default/dwa43ae24d/images/medium/50500005_1.png",
+        "accSecond":"https://www.rimowa.com/on/demandware.static/-/Sites-rimowa-master-catalog-final/default/dw3a5abe6a/images/medium/50500005_2.png",
+        "StoreImg":"https://www.rimowa.com/dw/image/v2/BCLH_PRD/on/demandware.static/-/Sites/default/dw21597b05/7019.jpg?sw=350&sh=260",
+        "StoreName":"Client Care Center Paris",
+        "StoreFloor":"73, rue du Faubourg Saint-Honoré 75008",
+        "StoreCountry":"FRANCE",
+        "StoreCity":"Paris",
+        "StorePart":"STORE",
+        "materials": {
+          "outside": "aluminium",
+          "inside": "polyester",
+          "handles": "leather",
+          "wheels": "hard plastic",
+          "dividers": "polyester"
+        },
+        "amount": 1530,
+        "currency": "euro",
+        "colorName":
+          "Green"
+        ,
+        "lugColor":
+            "https://www.rimowa.com/on/demandware.static/-/Sites-rimowa-storefront-final/default/dw09a30f7e/images/16/megamenu/green_cat_menu.png"
+        ,
+        "colors": [
+           {
+            "name": "black",
+            "img_url": "https://www.rimowa.com/on/demandware.static/-/Sites-rimowa-master-catalog-final/default/dwe5d4dd3f/images/medium/92590027_1.png"
+          },
+           {
+            "name": "silver",
+            "img_url": "https://www.rimowa.com/on/demandware.static/-/Sites-rimowa-master-catalog-final/default/dw2c1df555/images/medium/92590026_1.png"
+          },
+           {
+            "name": "blue",
+            "img_url": "https://www.rimowa.com/on/demandware.static/-/Sites-rimowa-master-catalog-final/default/dwa5e6de46/images/medium/92590029_1.png"
+          }
+        ]
+      },
+      {
+        "product_number": 92590041,
+        "collection": "original",
+        "name": "Cabin Twist",
+        "size": "55 x 40 x 23",
+        "weight": "4.3 kg",
+        "volume": "35 L",
+        "price": "3.200,00",
+        "accName": "Iridescent Groove Case for iPhone XS Max",
+        "accPrice": "70,00",
+        "img":"https://www.rimowa.com/on/demandware.static/-/Sites-rimowa-master-catalog-final/default/dwa5e6de46/images/medium/92590029_1.png",
+        "secondImg": "https://www.rimowa.com/on/demandware.static/-/Sites-rimowa-master-catalog-final/default/dwd17aa80d/images/medium/92590029_2.png",
+        "accImg":"https://www.rimowa.com/on/demandware.static/-/Sites-rimowa-master-catalog-final/default/dwe1e87a99/images/medium/50500011_1.png",
+        "accSecond":"https://www.rimowa.com/on/demandware.static/-/Sites-rimowa-master-catalog-final/default/dwcf79f2e3/images/medium/50500011_2.png",
+        "StoreImg":"https://www.rimowa.com/dw/image/v2/BCLH_PRD/on/demandware.static/-/Sites/default/dw4d8104a3/storelocator-1.jpg?sw=350&sh=260",
+        "StoreName":"Rimowa Paris - Faubourg St Honoré",
+        "StoreFloor":"73, rue du Faubourg Saint-Honoré 75008",
+        "StoreCountry":"FRANCE",
+        "StoreCity":"Paris",
+        "StorePart":"REPAIRS | STORE",
+        "materials": {
+          "outside": "aluminium",
+          "inside": "polyester",
+          "handles": "leather",
+          "wheels": "hard plastic",
+          "dividers": "polyester"
+        },
+        "amount": 1000,
+        "currency": "euro",
+        "colorName":[
+          "Red"
+        ],
+        "lugColor":
+           
+            "https://www.rimowa.com/on/demandware.static/-/Sites-rimowa-storefront-final/default/dw09a30f7e/images/16/megamenu/red_cat_menu.png"
+        ,
+        "colors": [
+          {
+           "name": "black",
+           "img_url": "https://www.rimowa.com/on/demandware.static/-/Sites-rimowa-master-catalog-final/default/dwe5d4dd3f/images/medium/92590027_1.png"
+         },
+          {
+           "name": "silver",
+           "img_url": "https://www.rimowa.com/on/demandware.static/-/Sites-rimowa-master-catalog-final/default/dw2c1df555/images/medium/92590026_1.png"
+         },
+          {
+           "name": "blue",
+           "img_url": "https://www.rimowa.com/on/demandware.static/-/Sites-rimowa-master-catalog-final/default/dwa5e6de46/images/medium/92590029_1.png"
+         }
+       ]
+      },
+      {
+        "product_number": 92552014,
+        "collection": "original",
+        "name": "Cabin S",
+        "size": "55 x 40 x 20",
+        "weight": "4.2 kg",
+        "volume": "31 L",
+        "price": "3.600,00",
+        "accName": "Iridescent Groove Case for iPhone 11 Pro",
+        "accPrice": "70,00",
+        "img":"https://www.rimowa.com/on/demandware.static/-/Sites-rimowa-master-catalog-final/default/dwe5d4dd3f/images/medium/92590027_1.png",
+        "secondImg": "https://www.rimowa.com/on/demandware.static/-/Sites-rimowa-master-catalog-final/default/dw201e5fd3/images/medium/92590027_2.png",
+        "accImg":"https://www.rimowa.com/on/demandware.static/-/Sites-rimowa-master-catalog-final/default/dwc52c56ae/images/medium/50500026_1.png",
+        "accSecond":"https://www.rimowa.com/on/demandware.static/-/Sites-rimowa-master-catalog-final/default/dwc436a89d/images/medium/50500026_2.png",
+        "StoreImg":"https://www.rimowa.com/dw/image/v2/BCLH_PRD/on/demandware.static/-/Sites/default/dw42968596/8012.jpg?sw=350&sh=260",
+        "StoreName":"Rimowa Paris - Galeries Lafayette Haussmann",
+        "StoreFloor":"40, Boulevard Haussmann 75009",
+        "StoreCountry":"FRANCE",
+        "StoreCity":"Paris",
+        "StorePart":"STORE",
+        "materials": {
+          "outside": "aluminium",
+          "inside": "polyester",
+          "handles": "leather",
+          "wheels": "hard plastic",
+          "dividers": "polyester"
+        },
+        "amount": 820,
+        "currency": "euro",
+        "colorName":[
+          "Titanium"
+        ],
+        "lugColor":
+            "https://www.rimowa.com/on/demandware.static/-/Sites-rimowa-master-catalog-final/default/dwa63c5831/images/swatch/titanium.png"
+        ,
+        "colors": [
+          {
+           "name": "black",
+           "img_url": "https://www.rimowa.com/on/demandware.static/-/Sites-rimowa-master-catalog-final/default/dwe5d4dd3f/images/medium/92590027_1.png"
+         },
+          {
+           "name": "silver",
+           "img_url": "https://www.rimowa.com/on/demandware.static/-/Sites-rimowa-master-catalog-final/default/dw2c1df555/images/medium/92590026_1.png"
+         },
+          {
+           "name": "blue",
+           "img_url": "https://www.rimowa.com/on/demandware.static/-/Sites-rimowa-master-catalog-final/default/dwa5e6de46/images/medium/92590029_1.png"
+         }
+       ]
+      },
+      {
+        "product_number": 92552014,
+        "collection": "original",
+        "name": "Cabin S",
+        "size": "55 x 40 x 20",
+        "weight": "4.2 kg",
+        "volume": "31 L",
+        "price": "2.400,00",
+        "accName": "Iridescent Groove Case for iPhone 11",
+        "accPrice": "70,00",
+        "img" : "https://www.rimowa.com/on/demandware.static/-/Sites-rimowa-master-catalog-final/default/dwf809a28a/images/medium/92590032_1.png",
+        "secondImg": "https://www.rimowa.com/on/demandware.static/-/Sites-rimowa-master-catalog-final/default/dwfcb21f70/images/medium/92590032_2.png",
+        "accImg":"https://www.rimowa.com/on/demandware.static/-/Sites-rimowa-master-catalog-final/default/dwb812b29c/images/medium/50500025_1.png",
+        "accSecond":"https://www.rimowa.com/on/demandware.static/-/Sites-rimowa-master-catalog-final/default/dw4fb844ba/images/medium/50500025_2.png",
+        "StoreImg":"https://www.rimowa.com/dw/image/v2/BCLH_PRD/on/demandware.static/-/Sites/default/dw531fc28c/8050.jpg?sw=350&sh=260",
+        "StoreName":"Rimowa Paris - Le Bon Marché",
+        "StoreFloor":"24, rue de Sèvres 75007",
+        "StoreCountry":"FRANCE",
+        "StoreCity":"Paris",
+        "StorePart":"REPAIRS | STORE",
+        "materials": {
+          "outside": "aluminium",
+          "inside": "polyester",
+          "handles": "leather",
+          "wheels": "hard plastic",
+          "dividers": "polyester"
+        },
+        "amount": 820,
+        "currency": "euro",
+        "colorName":[
+          "Silver"
+        ],
+        "lugColor":
+            "https://www.rimowa.com/on/demandware.static/-/Sites-rimowa-storefront-final/default/dw09a30f7e/images/16/megamenu/silver_cat_menu.png"
+
+        ,
+        "colors": [
+          {
+           "name": "black",
+           "img_url": "https://www.rimowa.com/on/demandware.static/-/Sites-rimowa-master-catalog-final/default/dwff79ec76/images/medium/92590031_1.png"
+         },
+          {
+           "name": "silver",
+           "img_url": "https://www.rimowa.com/on/demandware.static/-/Sites-rimowa-master-catalog-final/default/dwf809a28a/images/medium/92590032_1.png"
+         },
+          {
+           "name": "blue",
+           "img_url": "https://www.rimowa.com/on/demandware.static/-/Sites-rimowa-master-catalog-final/default/dw5880fbe5/images/medium/92590033_1.png"
+         }
+       ]
+      },
+      {
+        "product_number": 92552014,
+        "collection": "original",
+        "name": "Hand Case",
+        "size": "55 x 40 x 20",
+        "weight": "4.2 kg",
+        "volume": "31 L",
+        "price": "2.400,00",
+        "accName": "Iridescent Groove Case for iPhone 11",
+        "accPrice": "70,00",
+        "img" : "https://www.rimowa.com/on/demandware.static/-/Sites-rimowa-master-catalog-final/default/dw98c73e81/images/medium/83253834_1.png",
+        "secondImg": "https://www.rimowa.com/on/demandware.static/-/Sites-rimowa-master-catalog-final/default/dw7f680215/images/medium/92590037_2.png",
+        "accImg":"https://www.rimowa.com/on/demandware.static/-/Sites-rimowa-master-catalog-final/default/dwb812b29c/images/medium/50500025_1.png",
+        "accSecond":"https://www.rimowa.com/on/demandware.static/-/Sites-rimowa-master-catalog-final/default/dw4fb844ba/images/medium/50500025_2.png",
+        "StoreImg":"https://www.rimowa.com/dw/image/v2/BCLH_PRD/on/demandware.static/-/Sites/default/dw6db8b278/8053.jpg?sw=350&sh=260",
+        "StoreName":"Rimowa Paris - Printemps Louvre",
+        "StoreFloor":"99, rue de Rivoli 75001",
+        "StoreCountry":"FRANCE",
+        "StoreCity":"Paris",
+        "StorePart":"STORE",
+        "materials": {
+          "outside": "aluminium",
+          "inside": "polyester",
+          "handles": "leather",
+          "wheels": "hard plastic",
+          "dividers": "polyester"
+        },
+        "amount": 820,
+        "currency": "euro",
+        "colorName":[
+          "Coral"
+        ],
+        "lugColor":
+            "https://www.rimowa.com/on/demandware.static/-/Sites-rimowa-master-catalog-final/default/dw24587791/images/swatch/scarlet_gloss.png"
+
+        ,
+        "colors": [
+          {
+           "name": "black",
+           "img_url": "https://www.rimowa.com/on/demandware.static/-/Sites-rimowa-master-catalog-final/default/dw98c73e81/images/medium/83253834_1.png"
+         },
+          {
+           "name": "silver",
+           "img_url": "https://www.rimowa.com/on/demandware.static/-/Sites-rimowa-master-catalog-final/default/dw9bb4d107/images/medium/83253664_1.png"
+         },
+          {
+           "name": "blue",
+           "img_url": "https://www.rimowa.com/on/demandware.static/-/Sites-rimowa-master-catalog-final/default/dw34956fab/images/medium/82353604_1.png"
+         }
+       ]
+      },
+      {
+        "product_number": 92552014,
+        "collection": "original",
+        "name": "Hand Case",
+        "size": "55 x 40 x 20",
+        "weight": "4.2 kg",
+        "volume": "31 L",
+        "price": "2.400,00",
+        "accName": "Iridescent Groove Case for iPhone 11",
+        "accPrice": "70,00",
+        "img" : "https://www.rimowa.com/on/demandware.static/-/Sites-rimowa-master-catalog-final/default/dwf59b2afc/images/medium/99090002_1.png",
+        "secondImg": "https://www.rimowa.com/on/demandware.static/-/Sites-rimowa-master-catalog-final/default/dw4d8d95ba/images/medium/99090002_2.png",
+        "accImg":"https://www.rimowa.com/on/demandware.static/-/Sites-rimowa-master-catalog-final/default/dwb812b29c/images/medium/50500025_1.png",
+        "accSecond":"https://www.rimowa.com/on/demandware.static/-/Sites-rimowa-master-catalog-final/default/dw4fb844ba/images/medium/50500025_2.png",
+        "StoreImg":"https://www.rimowa.com/dw/image/v2/BCLH_PRD/on/demandware.static/-/Sites/default/dwdd3f67e1/8052.jpg?sw=350&sh=260",
+        "StoreName":"Rimowa Store Galeries Lafayette Champs Elysées",
+        "StoreFloor":"60 avenue des Champs-Elysées 75008",
+        "StoreCountry":"FRANCE",
+        "StoreCity":"Paris",
+        "StorePart":"STORE",
+        "materials": {
+          "outside": "aluminium",
+          "inside": "polyester",
+          "handles": "leather",
+          "wheels": "hard plastic",
+          "dividers": "polyester"
+        },
+        "amount": 820,
+        "currency": "euro",
+        "colorName":
+          "Saffron"
+        ,
+        "lugColor":
+            "https://www.rimowa.com/on/demandware.static/-/Sites-rimowa-master-catalog-final/default/dw58bf9758/images/swatch/saffron_gloss.png"
+
+        ,
+        "colors": [
+          {
+           "name": "black",
+           "img_url": "https://www.rimowa.com/on/demandware.static/-/Sites-rimowa-master-catalog-final/default/dwf59b2afc/images/medium/99090002_1.png"
+         },
+          {
+           "name": "silver",
+           "img_url": "https://www.rimowa.com/on/demandware.static/-/Sites-rimowa-master-catalog-final/default/dw2f206c44/images/medium/99090001_1.png"
+         },
+          {
+           "name": "blue",
+           "img_url": "https://www.rimowa.com/on/demandware.static/-/Sites-rimowa-master-catalog-final/default/dwf6ec4b1e/images/medium/99090004_1.png"
+         }
+       ]
+      },
+      {
+        "product_number": 92552014,
+        "collection": "original",
+        "name": "Personal",
+        "size": "55 x 40 x 20",
+        "weight": "4.2 kg",
+        "volume": "31 L",
+        "price": "2.800,00",
+        "accName": "Iridescent Groove Case for iPhone 11",
+        "accPrice": "70,00",
+        "img" : "https://www.rimowa.com/on/demandware.static/-/Sites-rimowa-master-catalog-final/default/dw2f206c44/images/medium/99090001_1.png",
+        "secondImg": "https://www.rimowa.com/on/demandware.static/-/Sites-rimowa-master-catalog-final/default/dwa93145a4/images/medium/99090001_2.png",
+        "accImg":"https://www.rimowa.com/on/demandware.static/-/Sites-rimowa-master-catalog-final/default/dwb812b29c/images/medium/50500025_1.png",
+        "accSecond":"https://www.rimowa.com/on/demandware.static/-/Sites-rimowa-master-catalog-final/default/dw4fb844ba/images/medium/50500025_2.png",
+        "StoreImg":"https://www.rimowa.com/dw/image/v2/BCLH_PRD/on/demandware.static/-/Sites/default/dw21597b05/7019.jpg?sw=350&sh=260",
+        "StoreName":"Rimowa Store Paris Charles de Gaulle Airport Terminal 2E",
+        "StoreFloor":"Aéroport de Roissy Charles de Gaulle Terminal 2E, Gates K 95700",
+        "StoreCountry":"Roissy-en-France",
+        "StoreCity":"Paris",
+        "StorePart":"STORE",
+        "materials": {
+          "outside": "aluminium",
+          "inside": "polyester",
+          "handles": "leather",
+          "wheels": "hard plastic",
+          "dividers": "polyester"
+        },
+        "amount": 820,
+        "currency": "euro",
+        "colorName":
+          "Diorsilver"
+        ,
+        "lugColor":
+           "https://www.rimowa.com/on/demandware.static/-/Sites-rimowa-master-catalog-final/default/dw34e11479/images/swatch/dior_silver.png"
+
+        ,
+        "colors": [
+          {
+           "name": "black",
+           "img_url": "https://www.rimowa.com/on/demandware.static/-/Sites-rimowa-master-catalog-final/default/dwf59b2afc/images/medium/99090002_1.png"
+         },
+          {
+           "name": "silver",
+           "img_url": "https://www.rimowa.com/on/demandware.static/-/Sites-rimowa-master-catalog-final/default/dw2f206c44/images/medium/99090001_1.png"
+         },
+          {
+           "name": "blue",
+           "img_url": "https://www.rimowa.com/on/demandware.static/-/Sites-rimowa-master-catalog-final/default/dwf6ec4b1e/images/medium/99090004_1.png"
+         }
+       ]
+      },
+      {
+        "product_number": 92552014,
+        "collection": "original",
+        "name": "Personal",
+        "size": "55 x 40 x 20",
+        "weight": "4.2 kg",
+        "volume": "31 L",
+        "price": "1.700,00",
+        "accName": "Iridescent Groove Case for iPhone 11",
+        "accPrice": "70,00",
+        "img" : "https://www.rimowa.com/on/demandware.static/-/Sites-rimowa-master-catalog-final/default/dwf6ec4b1e/images/medium/99090004_1.png",
+        "secondImg": "https://www.rimowa.com/on/demandware.static/-/Sites-rimowa-master-catalog-final/default/dwad8221aa/images/medium/99090004_2.png",
+        "accImg":"https://www.rimowa.com/on/demandware.static/-/Sites-rimowa-master-catalog-final/default/dwb812b29c/images/medium/50500025_1.png",
+        "accSecond":"https://www.rimowa.com/on/demandware.static/-/Sites-rimowa-master-catalog-final/default/dw4fb844ba/images/medium/50500025_2.png",
+        "StoreImg":"https://www.rimowa.com/dw/image/v2/BCLH_PRD/on/demandware.static/-/Sites/default/dw4d8104a3/storelocator-1.jpg?sw=350&sh=260",
+        "StoreName":"Rimowa Store Paris Printemps Haussmann",
+        "StoreFloor":"64, boulevard Haussmann 75009",
+        "StoreCountry":"FRANCE",
+        "StoreCity":"Paris",
+        "StorePart":"REPAIRS | STORE",
+        "materials": {
+          "outside": "aluminium",
+          "inside": "polyester",
+          "handles": "leather",
+          "wheels": "hard plastic",
+          "dividers": "polyester"
+        },
+        "amount": 820,
+        "currency": "euro",
+        "colorName":
+            "Marine"
+        ,
+        "lugColor":
+            "https://www.rimowa.com/on/demandware.static/-/Sites-rimowa-master-catalog-final/default/dw63c14d15/images/swatch/marine_gloss.png"
+
+        ,
+        "colors": [
+          {
+           "name": "black",
+           "img_url": "https://www.rimowa.com/on/demandware.static/-/Sites-rimowa-master-catalog-final/default/dwf59b2afc/images/medium/99090002_1.png"
+         },
+          {
+           "name": "silver",
+           "img_url": "https://www.rimowa.com/on/demandware.static/-/Sites-rimowa-master-catalog-final/default/dw2f206c44/images/medium/99090001_1.png"
+         },
+          {
+           "name": "blue",
+           "img_url": "https://www.rimowa.com/on/demandware.static/-/Sites-rimowa-master-catalog-final/default/dwf6ec4b1e/images/medium/99090004_1.png"
+         }
+       ]
+      },
+      {
+        "product_number": 92552014,
+        "collection": "original",
+        "name": "Personal",
+        "size": "55 x 40 x 20",
+        "weight": "4.2 kg",
+        "volume": "31 L",
+        "price": "1.700,00",
+        "accName": "Iridescent Groove Case for iPhone 11",
+        "accPrice": "70,00",
+        "img" : "https://www.rimowa.com/on/demandware.static/-/Sites-rimowa-master-catalog-final/default/dwf6ec4b1e/images/medium/99090004_1.png",
+        "secondImg": "https://www.rimowa.com/on/demandware.static/-/Sites-rimowa-master-catalog-final/default/dwad8221aa/images/medium/99090004_2.png",
+        "accImg":"https://www.rimowa.com/on/demandware.static/-/Sites-rimowa-master-catalog-final/default/dwb812b29c/images/medium/50500025_1.png",
+        "accSecond":"https://www.rimowa.com/on/demandware.static/-/Sites-rimowa-master-catalog-final/default/dw4fb844ba/images/medium/50500025_2.png",
+        "StoreImg":"https://www.rimowa.com/dw/image/v2/BCLH_PRD/on/demandware.static/-/Sites/default/dw4d8104a3/storelocator-1.jpg?sw=350&sh=260",
+        "StoreName":"Rimowa Store Paris Printemps Haussmann",
+        "StoreFloor":"64, boulevard Haussmann 75009",
+        "StoreCountry":"FRANCE",
+        "StoreCity":"Paris",
+        "StorePart":"REPAIRS | STORE",
+        "materials": {
+          "outside": "aluminium",
+          "inside": "polyester",
+          "handles": "leather",
+          "wheels": "hard plastic",
+          "dividers": "polyester"
+        },
+        "amount": 820,
+        "currency": "euro",
+        "colorName":
+            "Black"
+        ,
+        "lugColor":
+            "https://www.rimowa.com/on/demandware.static/-/Sites-rimowa-master-catalog-final/default/dwedd36852/images/swatch/black_gloss.png"
+
+        ,
+        "colors": [
+          {
+           "name": "black",
+           "img_url": "https://www.rimowa.com/on/demandware.static/-/Sites-rimowa-master-catalog-final/default/dwf59b2afc/images/medium/99090002_1.png"
+         },
+          {
+           "name": "silver",
+           "img_url": "https://www.rimowa.com/on/demandware.static/-/Sites-rimowa-master-catalog-final/default/dw2f206c44/images/medium/99090001_1.png"
+         },
+          {
+           "name": "blue",
+           "img_url": "https://www.rimowa.com/on/demandware.static/-/Sites-rimowa-master-catalog-final/default/dwf6ec4b1e/images/medium/99090004_1.png"
+         }
+       ]
+      }
+    ]
+}
