@@ -1,0 +1,60 @@
+.Header {
+  .header-menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 5em;
+    padding-top: 1.83em;
+    .header-location {
+      font-size: 0.7rem;
+      letter-spacing: 0.2rem;
+      .first-word {
+        color: #6f6f6f;
+      }
+      .end-word {
+        margin-left: 0.8em;
+      }
+    }
+    .header-logoTitle {
+      letter-spacing: 0.2rem;
+      font-size: 1.7rem;
+    }
+    .header-items {
+      display: flex;
+      justify-content: space-around;
+      margin-left: 2em;
+
+      .header-signIn {
+        a {
+          font-size: 0.7rem;
+          letter-spacing: 0.2rem;
+          text-decoration: none;
+          color: #424242;
+        }
+      }
+      .header-icons {
+        color: #424242;
+        font-size: 0.9rem;
+
+        .icon1 {
+          margin-left: 3.5em;
+        }
+
+        .icon2 {
+          margin-left: 3.2em;
+        }
+
+        .icon3 {
+          margin-left: 3.2em;
+          cursor: pointer;
+        }
+      }
+    }
+  }
+}
+
+.goToSignin {
+  cursor: pointer;
+  font-size: 0.7rem;
+  letter-spacing: 0.15em;
+}

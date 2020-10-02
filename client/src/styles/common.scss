@@ -1,0 +1,132 @@
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400;500;600&display=swap");
+
+/* common colors */
+$white: #fff;
+$black: #000;
+$beige: #f7f5f4;
+$beigeTxt: #b2ada6;
+$beigeBg: #fbfaf9;
+$darkGray: #424242;
+$gray: #636363;
+$lightGray: #a0a0a0;
+$faintGray: #eeeeee;
+$error: #c81f1f;
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Work Sans", sans-serif;
+  font-size: 0.875rem;
+  color: $darkGray;
+  line-height: 1.5rem;
+}
+
+/* layout */
+.flex {
+  display: flex;
+}
+
+.flexCenter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.flexAlignCenter {
+  display: flex;
+  align-items: center;
+}
+
+.flexJustifyCenter {
+  display: flex;
+  justify-content: center;
+}
+
+.flexSpaceBetween {
+  display: flex;
+  justify-content: space-between;
+}
+
+.flexSBCenter {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.flexColumnCenter {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.flexEnd {
+  display: flex;
+  justify-content: flex-end;
+}
+
+/* font */
+h1 {
+  font-size: 1.875rem;
+  font-weight: 300;
+  letter-spacing: 0.05rem;
+}
+
+h2 {
+  font-size: 1.75rem;
+  font-weight: 300;
+  letter-spacing: 0.05rem;
+}
+
+h3 {
+  font-size: 1.15rem;
+  font-weight: 300;
+  letter-spacing: 0.125rem;
+}
+
+h5 {
+  font-size: 1.25rem;
+  font-weight: 300;
+  letter-spacing: 0.125rem;
+}
+
+h6 {
+  font-size: 1rem;
+  font-weight: 300;
+  letter-spacing: 0.05rem;
+}
+
+.center {
+  text-align: center;
+}
+.upper {
+  text-transform: uppercase;
+}
+.txtUpper {
+  text-transform: uppercase;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+/* Button */
+button {
+  background-color: black;
+  width: 100%;
+  font-size: 0.675rem;
+  color: $white;
+  text-transform: uppercase;
+  letter-spacing: 0.2rem;
+  border-radius: 0.375em;
+  padding: 1.5em;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  color: rgba(255, 255, 255, 0.7);
+}

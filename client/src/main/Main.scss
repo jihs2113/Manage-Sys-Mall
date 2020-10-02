@@ -1,0 +1,317 @@
+@import "../styles/common.scss";
+
+.UniqueMain {
+  width: 100%;
+  position: relative;
+}
+/********** TYPOGRAPHY **********/
+.unUpper {
+  text-transform: uppercase;
+}
+
+.HeaderStyle {
+  position: absolute;
+  width: 100%;
+  z-index: 100;
+}
+
+.NavStyle {
+  position: absolute;
+  width: 100%;
+  top: 50px;
+  z-index: 100;
+}
+
+/********** Hero **********/
+
+.unHero {
+  position: relative;
+}
+
+.unHeroVideo {
+  width: 100%;
+}
+
+.heroMsg {
+  position: absolute;
+  top: 40%;
+  left: 10%;
+}
+
+.heroHeader {
+  margin: 0.3em 0;
+}
+
+.heroBtn {
+  background-color: rgba(255, 255, 255, 0.5);
+  width: 100%;
+  font-size: 0.675rem;
+  color: $white;
+  text-transform: uppercase;
+  letter-spacing: 0.2rem;
+  border-radius: 0.375em;
+  padding: 1.5em;
+  border: none;
+  cursor: pointer;
+  margin: 3em 0;
+  transition: 0.5s ease-in;
+
+  &:hover {
+    background-color: rgba(255, 255, 255, 0.7);
+  }
+
+  p {
+    color: black;
+    font-size: 0.875rem;
+    font-weight: 300;
+    text-align: center;
+  }
+}
+
+/********** WRAPPER **********/
+
+.unWrapper {
+  max-width: 1200px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+/********** PITCH **********/
+.unPitch {
+  padding-top: 6em;
+}
+
+.pitchHeader {
+  font-weight: 400;
+  margin-bottom: 2em;
+}
+
+.pitchBody {
+  max-width: 500px;
+  margin: 0 auto;
+  font-size: 0.9375rem;
+
+  p {
+    line-height: 1.75em;
+  }
+}
+
+/********** HOW **********/
+.unHow {
+  margin-top: 8em;
+}
+
+.howHeader {
+  font-weight: 400;
+  margin-bottom: 2em;
+}
+
+.unHow1,
+.unHow2,
+.unHow3 {
+  width: 100%;
+  padding: 2em 10em;
+}
+
+.unImgWrapper {
+  width: 50%;
+}
+
+.unImg1 {
+  width: 339px;
+  height: 339px;
+  border-radius: 50%;
+  margin: 0 auto;
+  background: url("https://www.rimowa.com/on/demandware.static/-/Library-Sites-RimowaSharedLibrary/default/dwdaf72418/landing/custo/Animation-Cabin.jpg");
+  background-position: 0px 0px;
+  animation-name: imgslide;
+  animation-duration: 8s;
+  animation-timing-function: ease;
+  animation-iteration-count: infinite;
+}
+
+.unImg2 {
+  width: 339px;
+  height: 339px;
+  border-radius: 50%;
+  margin: 0 auto;
+  background: lightblue;
+  background: url("https://www.rimowa.com/on/demandware.static/-/Library-Sites-RimowaSharedLibrary/default/dwd5dae417/landing/custo/Animation-Wheels.jpg");
+  background-position: 0px 0px;
+  animation-name: imgslide;
+  animation-delay: 0.7s;
+  animation-duration: 8s;
+  animation-timing-function: ease;
+  animation-iteration-count: infinite;
+}
+
+.unImg3 {
+  width: 339px;
+  height: 339px;
+  border-radius: 50%;
+  margin: 0 auto;
+  background: lightblue;
+  background: url("https://www.rimowa.com/on/demandware.static/-/Library-Sites-RimowaSharedLibrary/default/dw12567add/landing/custo/Animation-Tag-perspective.jpg");
+  background-position: 0px 0px;
+  animation-name: imgslide;
+  animation-delay: 1.4s;
+  animation-duration: 8s;
+  animation-timing-function: ease;
+  animation-iteration-count: infinite;
+}
+
+@keyframes imgslide {
+  0% {
+    background-position: 0;
+  }
+
+  25% {
+    background-position: 339px;
+  }
+  50% {
+    background-position: 678px;
+  }
+
+  75% {
+    background-position: 1017px;
+  }
+
+  100% {
+    background-position: 1356px;
+  }
+}
+
+.unDes {
+  width: 50%;
+  margin: 0 10em;
+}
+.unDesHeader {
+  font-size: 1.75rem;
+  font-weight: 300;
+  line-height: 2.5rem;
+  margin-bottom: 1.25em;
+}
+
+.unHowBody {
+  font-size: 0.9rem;
+}
+
+.unHowBtn {
+  width: 20%;
+  margin: 0 auto;
+
+  div {
+    text-transform: uppercase;
+    font-size: 0.75rem;
+    letter-spacing: 0.125rem;
+    padding: 1.25em;
+    background: #393939;
+    color: $white;
+    border-radius: 0.5em;
+    cursor: pointer;
+    transition: 0.5s ease-out;
+  }
+
+  div:hover {
+    color: #b6b6b6;
+  }
+}
+/********** STICKER **********/
+.unTitle {
+  margin: 0.5em 0;
+}
+
+.unSticker {
+  background: #f7f5f4;
+  padding-top: 6em;
+  margin: 4em 0 2em;
+  cursor: pointer;
+
+  img {
+    width: 48%;
+  }
+}
+
+.unStickerImg {
+  margin-top: 4em;
+}
+
+/********** ACCESSORIES **********/
+.unAccessories {
+  width: 100%;
+  margin-bottom: 3em;
+  cursor: pointer;
+
+  .left {
+    width: 50%;
+    margin-right: 1em;
+    overflow: hidden;
+    padding: 4em;
+    background: #f7f5f4;
+  }
+
+  .right {
+    width: 50%;
+    margin-left: 1em;
+    overflow: hidden;
+    background: #f7f5f4;
+  }
+
+  .unAccHeader {
+    padding-top: 4em;
+  }
+}
+
+.unTag {
+  width: 339px;
+  height: 339px;
+  margin: 3em auto 0;
+  background: url("https://www.rimowa.com/on/demandware.static/-/Library-Sites-RimowaSharedLibrary/default/dwaa7a5b2c/landing/custo/Animation-Tag-perspective.png");
+  animation-name: imgStop;
+  animation-duration: 3s;
+  animation-timing-function: steps(4);
+  animation-iteration-count: infinite;
+}
+
+@keyframes imgStop {
+  100% {
+    background-position: -1356px;
+  }
+}
+
+.unWheel {
+  background: url("https://www.rimowa.com/on/demandware.static/-/Library-Sites-RimowaSharedLibrary/default/dwf6721c54/images/mozaic_vertical/Wheels.png");
+  width: 100%;
+  height: 384px;
+  object-fit: contain;
+  margin-top: 5em;
+}
+
+.unGetStartedBtn {
+  width: 25%;
+  margin: 1em 0;
+}
+
+.main-slider {
+  padding: 5em 0;
+  background-color: #f7f5f4;
+
+  .main-slider-title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+.main-wrapper {
+  display: flex;
+  justify-content: center;
+  justify-content: space-between;
+  padding: 2em 1em 2em;
+}
+
+.unLink {
+  font-size: 0.875rem;
+  text-decoration: underline;
+  cursor: pointer;
+}

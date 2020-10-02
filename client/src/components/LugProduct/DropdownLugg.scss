@@ -1,0 +1,32 @@
+.ColorSwatches{
+    list-style: none;
+    margin: 1em 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+   
+    .OneColor{
+        display: flex;
+        align-items: center;
+        .PointColor{
+            cursor:pointer;
+            overflow: hidden;
+            height: 1.4em;
+            padding: 0;
+            text-indent: -999em;
+            width: 1.4em;
+            margin-left: 0;
+            margin-right: 0.7em;
+            border-radius: 2px;
+            border: none;
+            text-decoration: none;
+        }
+        .PointName{
+            font-size: 0.8rem;
+            
+            color: #b2ada6;
+            list-style: none;
+        }
+
+    }
+}

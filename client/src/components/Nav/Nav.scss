@@ -1,0 +1,53 @@
+.Nav {
+  position: relative;
+
+  .Nav-box {
+    margin-top: 1em;
+    padding: 0 21em;
+    letter-spacing: 0.2rem;
+    ul {
+      display: flex;
+      justify-content: space-around;
+      list-style: none;
+      font-size: 0.75rem;
+      li {
+        padding: 2em;
+      }
+      .NEW-btn,
+      .LUGGAGE-btn,
+      .ACCESSORIES-btn,
+      .GIFTS-btn,
+      .SERVICES-btn,
+      .CUSTOMISE-btn {
+        position: relative;
+        cursor: pointer;
+      }
+      .NEW-btn::after,
+      .LUGGAGE-btn::after,
+      .ACCESSORIES-btn::after,
+      .GIFTS-btn::after,
+      .SERVICES-btn::after,
+      .CUSTOMISE-btn::after {
+        content: "";
+        position: absolute;
+        left: 0;
+        bottom: 17px;
+        width: 100%;
+        height: 1px;
+        background: black;
+        transform: scaleX(0);
+        transform-origin: center;
+        transition: transform 0.2s ease-in;
+      }
+
+      .NEW-btn:hover::after,
+      .LUGGAGE-btn:hover::after,
+      .ACCESSORIES-btn:hover::after,
+      .GIFTS-btn:hover::after,
+      .SERVICES-btn:hover::after,
+      .CUSTOMISE-btn:hover::after {
+        transform: scaleX(1);
+      }
+    }
+  }
+}

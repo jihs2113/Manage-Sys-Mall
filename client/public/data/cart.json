@@ -1,0 +1,34 @@
+{
+  "data": [
+    {
+      "id": 92585004,
+      "collection": "original",
+      "name": "Truck XL",
+      "color": "red",
+      "size": "80 x 44 x 46",
+      "price": 1530,
+      "amount": 1,
+      "image": "https://www.rimowa.com/on/demandware.static/-/Sites-rimowa-master-catalog-final/default/dwd17c0765/images/large/92585004_1.png"
+    },
+    {
+      "id": 92590041,
+      "collection": "classic",
+      "name": "Cabin",
+      "color": "black",
+      "size": "55 x 40 x 23",
+      "price": 1000,
+      "amount": 2,
+      "image": "https://www.rimowa.com/on/demandware.static/-/Sites-rimowa-master-catalog-final/default/dw36ed8f18/images/large/92590026_1.png"
+    },
+    {
+      "id": 92552014,
+      "collection": "original",
+      "name": "Cabin S",
+      "color": "silver",
+      "size": "55 x 40 x 20",
+      "price": 1230,
+      "amount": 1,
+      "image": "https://www.rimowa.com/on/demandware.static/-/Sites-rimowa-master-catalog-final/default/dwca2bb43e/images/large/92590027_1.png"
+    }
+  ]
+}

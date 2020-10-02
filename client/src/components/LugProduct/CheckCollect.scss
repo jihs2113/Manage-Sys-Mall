@@ -1,0 +1,30 @@
+.CollectionCheck{
+    list-style: none;
+    margin: 1em 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    .OneCollection{
+        display: flex;
+        align-items: center;
+        padding: 0.5em 0;
+        .PointCheck{
+            width: 14px;
+            height: 14px;
+            background: #fff;
+            float: left;
+            border: 3px solid #fff;
+            box-shadow: 0 0 0 1px #b2ada6;
+            border-radius: 1px;
+        }
+        .PointCollection{
+            margin-left: 0.7em;
+            background-color: transparent;
+            list-style: none;
+            text-transform: uppercase;
+            text-decoration: none;
+            font-size: 0.8rem;
+            color: #b2ada6;
+        }
+    }
+}

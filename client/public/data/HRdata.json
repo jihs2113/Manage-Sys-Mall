@@ -1,0 +1,117 @@
+
+      {
+        "hrduct": [
+        {
+        "collection": "DIOR AND RIMOWA",
+        "name": "Trunk",
+        "product_number": "92590031",
+        "price": "3300.00",
+        "luggage_color": "Black",
+        "series_color": [
+            {
+              "name": "Black",
+              "color_url": "https://www.rimowa.com/on/demandware.static/-/Sites-rimowa-master-catalog-final/default/dw970d1792/images/swatch/dior_black.png",
+              "product_img1": "https://www.rimowa.com/on/demandware.static/-/Sites-rimowa-master-catalog-final/default/dwe958b8c3/images/large/83280624_1.png",
+              "product_img2": "https://www.rimowa.com/on/demandware.static/-/Sites-rimowa-master-catalog-final/default/dw7340b647/images/large/83280624_2.png"
+            },
+            {
+              "name": "Silver",
+              "color_url": "https://www.rimowa.com/on/demandware.static/-/Sites-rimowa-master-catalog-final/default/dw34e11479/images/swatch/dior_silver.png",
+              "product_img1": "https://www.rimowa.com/on/demandware.static/-/Sites-rimowa-master-catalog-final/default/dw0d1d8d74/images/large/97253004_1.png",
+              "product_img2": "https://www.rimowa.com/on/demandware.static/-/Sites-rimowa-master-catalog-final/default/dw348b99ae/images/large/97253004_2.png"
+            },
+
+            {
+                "name": "Gradient Blue",
+                "color_url": "https://www.rimowa.com/on/demandware.static/-/Sites-rimowa-master-catalog-final/default/dwc0102692/images/swatch/gradient_blue.png",
+                "product_img1": "https://www.rimowa.com/on/demandware.static/-/Sites-rimowa-master-catalog-final/default/dw75b83ca9/images/large/88353624_1.png",
+                "product_img2": "https://www.rimowa.com/on/demandware.static/-/Sites-rimowa-master-catalog-final/default/dwa1636c94/images/large/88353624_2.png"
+            }
+        ]
+    },
+    {
+        "collection": "DIOR AND RIMOWA",
+        "name": "Trunk",
+        "product_number": "92590031",
+        "price": "3300.00",
+        "luggage_color": "Silver",
+        "series_color": [
+            {
+              "name": "Black",
+              "color_url": "https://www.rimowa.com/on/demandware.static/-/Sites-rimowa-master-catalog-final/default/dw970d1792/images/swatch/dior_black.png",
+              "product_img1": "https://www.rimowa.com/on/demandware.static/-/Sites-rimowa-master-catalog-final/default/dwe958b8c3/images/large/83280624_1.png",
+              "product_img2": "https://www.rimowa.com/on/demandware.static/-/Sites-rimowa-master-catalog-final/default/dw7340b647/images/large/83280624_2.png"
+            },
+            {
+              "name": "Silver",
+              "color_url": "https://www.rimowa.com/on/demandware.static/-/Sites-rimowa-master-catalog-final/default/dw34e11479/images/swatch/dior_silver.png",
+              "product_img1": "https://www.rimowa.com/on/demandware.static/-/Sites-rimowa-master-catalog-final/default/dw0d1d8d74/images/large/97253004_1.png",
+              "product_img2": "https://www.rimowa.com/on/demandware.static/-/Sites-rimowa-master-catalog-final/default/dw348b99ae/images/large/97253004_2.png"
+            },
+
+            {
+                "name": "Gradient Blue",
+                "color_url": "https://www.rimowa.com/on/demandware.static/-/Sites-rimowa-master-catalog-final/default/dwc0102692/images/swatch/gradient_blue.png",
+                "product_img1": "https://www.rimowa.com/on/demandware.static/-/Sites-rimowa-master-catalog-final/default/dw75b83ca9/images/large/88353624_1.png",
+                "product_img2": "https://www.rimowa.com/on/demandware.static/-/Sites-rimowa-master-catalog-final/default/dwa1636c94/images/large/88353624_2.png"
+            }
+        ]
+    },
+    {
+        "collection": "DIOR AND RIMOWA",
+        "name": "Trunk",
+        "product_number": "92590031",
+        "price": "3300.00",
+        "luggage_color": "Silver",
+        "series_color": [
+            {
+              "name": "Black",
+              "color_url": "https://www.rimowa.com/on/demandware.static/-/Sites-rimowa-master-catalog-final/default/dw970d1792/images/swatch/dior_black.png",
+              "product_img1": "https://www.rimowa.com/on/demandware.static/-/Sites-rimowa-master-catalog-final/default/dwe958b8c3/images/large/83280624_1.png",
+              "product_img2": "https://www.rimowa.com/on/demandware.static/-/Sites-rimowa-master-catalog-final/default/dw7340b647/images/large/83280624_2.png"
+            },
+            {
+              "name": "Silver",
+              "color_url": "https://www.rimowa.com/on/demandware.static/-/Sites-rimowa-master-catalog-final/default/dw34e11479/images/swatch/dior_silver.png",
+              "product_img1": "https://www.rimowa.com/on/demandware.static/-/Sites-rimowa-master-catalog-final/default/dw0d1d8d74/images/large/97253004_1.png",
+              "product_img2": "https://www.rimowa.com/on/demandware.static/-/Sites-rimowa-master-catalog-final/default/dw348b99ae/images/large/97253004_2.png"
+            },
+
+            {
+                "name": "Gradient Blue",
+                "color_url": "https://www.rimowa.com/on/demandware.static/-/Sites-rimowa-master-catalog-final/default/dwc0102692/images/swatch/gradient_blue.png",
+                "product_img1": "https://www.rimowa.com/on/demandware.static/-/Sites-rimowa-master-catalog-final/default/dw75b83ca9/images/large/88353624_1.png",
+                "product_img2": "https://www.rimowa.com/on/demandware.static/-/Sites-rimowa-master-catalog-final/default/dwa1636c94/images/large/88353624_2.png"
+            }
+        ]
+    },
+    {
+        "collection": "DIOR AND RIMOWA",
+        "name": "Trunk",
+        "product_number": "92590031",
+        "price": "3300.00",
+        "luggage_color": "Silver",
+        "series_color": [
+            {
+              "name": "Black",
+              "color_url": "https://www.rimowa.com/on/demandware.static/-/Sites-rimowa-master-catalog-final/default/dw970d1792/images/swatch/dior_black.png",
+              "product_img1": "https://www.rimowa.com/on/demandware.static/-/Sites-rimowa-master-catalog-final/default/dwe958b8c3/images/large/83280624_1.png",
+              "product_img2": "https://www.rimowa.com/on/demandware.static/-/Sites-rimowa-master-catalog-final/default/dw7340b647/images/large/83280624_2.png"
+            },
+            {
+              "name": "Silver",
+              "color_url": "https://www.rimowa.com/on/demandware.static/-/Sites-rimowa-master-catalog-final/default/dw34e11479/images/swatch/dior_silver.png",
+              "product_img1": "https://www.rimowa.com/on/demandware.static/-/Sites-rimowa-master-catalog-final/default/dw0d1d8d74/images/large/97253004_1.png",
+              "product_img2": "https://www.rimowa.com/on/demandware.static/-/Sites-rimowa-master-catalog-final/default/dw348b99ae/images/large/97253004_2.png"
+            },
+
+            {
+                "name": "Gradient Blue",
+                "color_url": "https://www.rimowa.com/on/demandware.static/-/Sites-rimowa-master-catalog-final/default/dwc0102692/images/swatch/gradient_blue.png",
+                "product_img1": "https://www.rimowa.com/on/demandware.static/-/Sites-rimowa-master-catalog-final/default/dw75b83ca9/images/large/88353624_1.png",
+                "product_img2": "https://www.rimowa.com/on/demandware.static/-/Sites-rimowa-master-catalog-final/default/dwa1636c94/images/large/88353624_2.png"
+            }
+        ]
+    }
+]
+}

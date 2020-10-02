@@ -1,0 +1,570 @@
+.header{
+    max-width: 1360px;
+    width: calc(100% - 80px);
+    padding: 0 2em;
+    margin-right: auto;
+    margin-left: auto;
+    
+}
+.banner{
+    margin: 1em 0 0;
+    display: flex;
+    align-items: center;
+    background-color: black;
+    height: 9em;
+}
+/*네비게이션*/
+.navigation{
+    padding: 0 1em;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;//nav?banner?
+    width: 100%;
+
+}
+.ListMain{
+    border-top: 1px solid #f7f5f4;
+    min-height: 100vh;
+
+    .ListTop{
+        height: 68px;
+        border-bottom: 1px solid gray;
+        display: flex;
+        justify-content: center;
+        font-size: 0.8rem;
+        letter-spacing: 0.2rem;
+        z-index: 1;
+        .TopFilter{
+            display: flex;
+            justify-content: space-between;
+            position: relative;
+            width: 100%;
+            padding: 0 7em;
+            .FilterToggle{
+                margin-right: 3em;
+                text-transform: uppercase;
+                display: flex;
+                align-items: center;
+                .ToggleButton{
+                    cursor: pointer;
+                    color: #0d0901;
+                    background-color: transparent;
+                    font-size: 0.7rem;
+                    letter-spacing: 0.2rem;
+                    border-color: transparent;
+                }
+                .FilterDropdown{
+                    width: 95%;
+                    position: absolute;
+                    left: 2.5em;
+                    right: 1em;
+                    top: 69px;
+                    background-color: #fbfaf9;
+                    transition: all .2s ease;
+                    box-shadow: 0 100vw 0 100vw rgba(0,0,0,.5);
+                    padding: 2em 0 0;
+                    z-index: 2;
+                    .DropdownBox{
+                        min-width: 1024px;
+                        max-width: 1360px;
+                        display: flex;
+                        flex-flow: row wrap;
+                        justify-content: space-between;
+                        width: 100%;
+                        flex-wrap: nowrap;
+                        padding: 0 2.8em;
+                        margin-right: auto;
+                        margin-left: auto;
+                        padding-bottom: .65em;
+                        position: relative;
+                        .ColorFilter{
+                            flex: 1;
+                            .ColorSwatches{
+                                list-style: none;
+                                margin: 1em 0;
+                                padding: 0;
+                                display: flex;
+                                flex-direction: column;
+                               
+                                .OneColor{
+                                    display: flex;
+                                    align-items: center;
+                                    .PointColor{
+                                        overflow: hidden;
+                                        height: 1.4em;
+                                        padding: 0;
+                                        text-indent: -999em;
+                                        width: 1.4em;
+                                        margin-left: 0;
+                                        margin-right: 0.7em;
+                                        border-radius: 2px;
+                                        border: none;
+                                        text-decoration: none;
+                                    }
+                                    .PointName{
+                                        font-size: 0.8rem;
+                                        
+                                        color: #b2ada6;
+                                        list-style: none;
+                                        
+                                    }
+    
+                                }
+                            }
+                        }
+                        .PriceFilter{
+                            flex: 1;
+                            .PriceCheck{
+                                list-style: none;
+                                margin: 1em 0;
+                                padding: 0;
+                                display: flex;
+                                flex-direction: column;
+                                .OnePrice{
+                                    display: flex;
+                                    align-items: center;
+                                    padding: 0.5em 0;
+                                    
+                                    .PointCheck{
+                                        width: 1.5em;
+                                        height: 1.5em;
+                                        background: #fff;
+                                        float: left;
+                                        border: 3px solid #fff;
+                                        
+                                        border-radius: 1px;
+                                        
+                                    }
+                                    
+                                    .PointPrice{
+                                        margin-left: 0.7em;
+                                        background-color: transparent;
+                                        list-style: none;
+                                        text-transform: uppercase;
+                                        text-decoration: none;
+                                        font-size: 0.8rem;
+                                        color: #b2ada6;
+                                    }
+                                }
+                            }
+                        }
+                        .CollectionFilter{
+                            flex: 1;
+                            .CollectionCheck{
+                                list-style: none;
+                                margin: 1em 0;
+                                padding: 0;
+                                display: flex;
+                                flex-direction: column;
+                                .OneCollection{
+                                    display: flex;
+                                    align-items: center;
+                                    padding: 0.5em 0;
+                                    .PointCheck{
+                                        width: 14px;
+                                        height: 14px;
+                                        background: #fff;
+                                        float: left;
+                                        border: 3px solid #fff;
+                                        box-shadow: 0 0 0 1px #b2ada6;
+                                        border-radius: 1px;
+                                        
+                                    }
+                                    
+                                    .PointCollection{
+                                        margin-left: 0.7em;
+                                        background-color: transparent;
+                                        list-style: none;
+                                        text-transform: uppercase;
+                                        text-decoration: none;
+                                        font-size: 0.8rem;
+                                        color: #b2ada6;
+                                    }
+                                }
+                            }
+                        }
+    
+                    }
+                    .DropdownSub{
+                        width: 100%;
+                        background-color: #f7f5f4;
+                        text-transform: uppercase;
+                        color: #0d0901;
+                        min-width: 1024px;
+                        max-width: 1360px;
+                        display: flex;
+                        flex-flow: row wrap;
+                        justify-content: space-between;
+                        flex-wrap: nowrap;
+                        padding: 1em 5em 1em 2.5em;
+                        margin-right: auto;
+                        margin-left: auto;
+                        position: relative;
+                        .CancleBox{
+                            .CancelBtn{
+                                background: 0 0;
+                                color: black;
+                                border: none;
+                                padding: 1em;
+                                border-radius: 4px;
+                                text-transform: uppercase;
+                                font-size: 0.7rem;
+                                line-height: 0.8em;
+                                letter-spacing: 0.2rem;
+                                overflow: hidden;
+                                cursor: pointer;
+                                display: inline-block;
+                                text-align: center;
+                                transition: all .3s ease
+                            }
+                        }
+                        .ApplyBox{
+                            display: flex;
+                            .RESETBtn{
+                                margin-right: 0.7em;
+                                color: #000;
+                                border: 1px solid #000;
+                                background-color: transparent;
+                                display: block;
+                                line-height: 0.8em;
+                                background: 0 0;
+                                padding: 1em;
+                                border-radius: 4px;
+                                text-transform: uppercase;
+                                font-size: 0.7rem;
+                                letter-spacing: 0.2rem;
+                                overflow: hidden;
+                                cursor: pointer;
+                                display: inline-block;
+                                text-align: center;
+                                transition: all .3s ease
+                            }
+                            .APPLYBtn{
+                                border: none;
+                                padding: 1em;
+                                border-radius: 4px;
+                                text-transform: uppercase;
+                                font-size: 0.7rem;
+                                line-height: 0.7rem;
+                                letter-spacing: 0.2em;
+                                overflow: hidden;
+                                background: #000;
+                                color: #fff;
+                                cursor: pointer;
+                                display: inline-block;
+                                text-align: center;
+                                transition: all .3s ease
+                            }
+                        }
+                    }
+    
+                }
+        
+            }
+            .TopSeller{
+                cursor: pointer;
+                margin-right: .5em;
+                text-transform: uppercase;
+                display: flex;
+                align-items: center;
+                .Seller{
+                    margin-bottom: 0;
+                    color: #0d0901;
+                    background-color: transparent;
+                    font-size: 0.7rem;
+                    letter-spacing: 0.2rem;
+                    border-color: transparent;
+                    .SortBy{
+                        color: #0d0901;
+                    }
+                }
+                .FilterDropdown{
+                    width: 22%;
+                    position: absolute;
+                    right: 2.5em;
+                    top: 69px;
+                    background-color: #fbfaf9;
+                    transition: all .2s ease;
+                    box-shadow: 0 100vw 0 100vw rgba(0,0,0,.5);
+                    padding: 2em 0 0;
+                    z-index: 2;
+                    .DropdownBox{
+                        min-width: 1024px;
+                        max-width: 1360px;
+                        display: flex;
+                        flex-flow: row wrap;
+                        justify-content: space-between;
+                        width: 100%;
+                        flex-wrap: nowrap;
+                        padding: 0 2.8em;
+                        margin-right: auto;
+                        margin-left: auto;
+                        padding-bottom: .65em;
+                        position: relative;
+                        .ColorFilter{
+                            flex: 1;
+    
+                        }
+    
+                        .CollectionFilter{
+                            flex: 1;
+                            .CollectionCheck{
+                                list-style: none;
+                                margin: 1em 0;
+                                padding: 0;
+                                display: flex;
+                                flex-direction: column;
+                                .OneCollection{
+                                    display: flex;
+                                    align-items: center;
+                                    padding: 0.5em 0;
+                                    .PointCheck{
+                                        width: 14px;
+                                        height: 14px;
+                                        background: #fff;
+                                        float: left;
+                                        border: 3px solid #fff;
+                                        box-shadow: 0 0 0 1px #b2ada6;
+                                        border-radius: 1px;
+                                        
+                                    }
+                                    
+                                    .PointCollection{
+                                        margin-left: 0.7em;
+                                        background-color: transparent;
+                                        list-style: none;
+                                        text-transform: uppercase;
+                                        text-decoration: none;
+                                        font-size: 0.8rem;
+                                        color: #b2ada6;
+                                    }
+                                }
+                            }
+                        }
+    
+                    }
+    
+                }
+            }
+            
+        }
+        
+    }
+.ListContainer{
+    margin-top: 3em;
+    max-width: 1360px;
+    padding: 0 2em;
+    margin: 0 auto;
+    .ListCabin{
+        display: flex;
+        overflow: hidden;
+        padding: 0;
+        margin: 0;
+        padding-top: 3em;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: stretch;
+       
+        .CabinProduct{
+            width: 47%;
+            overflow: hidden;
+            margin: 0 1em 6em 1em;
+            text-align: center;
+            background-color: #f7f5f4;
+            border-radius: 6px;
+            
+            .Thumb{
+                display: block;
+                height: 100%;
+                overflow: hidden;
+                transition: all .2s ease-in-out;
+                text-decoration: none;
+                color: #0d0901;
+                
+                .ThumbTitle{
+                    margin: 2em 0 0 0;
+                    font-weight: 600; 
+                    font-size: 0.7rem; 
+                    color: #6f6f6f; 
+                    text-transform: uppercase;
+                    
+                }
+                .ThumbName{
+                    margin: 0.16em 0 0.6em 0;
+                    font-weight: 500;
+                    font-size: 1.5rem;
+                    line-height: 1.8rem;
+                    padding: 0.6em 0;
+                }
+                .Cta{
+                    font-weight: 600;
+                    font-size: 0.7rem;
+                    text-transform: uppercase;
+                    
+                }
+                .ThumbProduct{
+                    position: relative;
+                    height: 300px;
+                    mix-blend-mode: multiply;
+                    .Cabin{
+                        max-width: 1300px;
+                        bottom: -55%;
+                        position: absolute; 
+                        left: -9999px; 
+                        right: -9999px; 
+                        bottom: -121%; 
+                        width: 115%; 
+                        margin: auto;
+                    }
+                }
+            }
+        }
+        .CabinLimited{
+            list-style: none;
+            display: flex;
+            align-items: center;
+            width: 22%;
+            margin: 0 1em 6em 1em;
+            background-color: #f7f5f4;
+            border-radius: 6px;
+            .LimitedThumb{
+                color: #999;
+                position: relative;
+                display: flex;
+                text-align: center;
+                padding: 3em 0 2em;
+                .LimitedBody{
+                    
+                    .ProductLink{
+                        color: #000;
+                        overflow: hidden;
+                        text-decoration: none;
+                        .ProductImage{
+                            padding-top: 1em;
+                            height: auto;
+                            position: relative;
+                            .LimitedImage{
+                                padding-top: 1em;
+                                border-style: none;
+                                max-width: 100%;
+                                display: inline;
+                                visibility: visible;
+                                min-height: 177px;
+                                opacity: 1;
+                            }
+                        }
+                        .ProductCat{
+                            font-size: 0.7rem;
+                            text-transform: uppercase;
+                            
+                            padding: 0 1.5em;
+                        }
+                        .ProductRyme{
+                            color: #0d0901;
+                            font-size: 1rem;
+                            font-weight: 500;
+                            line-height: 1.8rem;
+                            padding: 0.6em 0;
+                        }
+                    }
+                    .ProductPrice{
+                        font-size: 1rem;
+                        color: #b2ada6;
+                        margin-top: 0.5em;
+                        font-weight: 300;
+                        
+                        line-height: 1rem;
+                    }
+                    .ProductPromo{
+                        font-size: .8em;
+                        margin: .5em 0;
+                        text-transform: uppercase;
+                    }
+                }
+                .LimitedWish{
+                    width: 26px;
+                    height: 26px;
+                    position: absolute;
+                    top: 1em;
+                    right: 1em;
+                    font-size: 1rem;
+                    
+                    cursor: pointer;
+                    i{
+                        font-weight: 400;
+                    }
+                }
+                .ProductSwatch{
+                    max-width: 1023px;
+                    top: 1em;
+                    left: 1.5em;
+                    position: absolute;
+                    .SwatchList{
+                        margin: 0;
+                        padding: 0;
+                        overflow: hidden;
+                        list-style: none;
+                        display: flex;
+                        li{
+                            height: 24px;
+                            a{
+                                pointer-events: none;
+                                cursor: default;
+                                display: inline-block;
+                                margin: 0;
+                                padding: 0.6em 0.3em;
+                                line-height: 0;
+                                color: #000;
+                                overflow: hidden;
+                                text-decoration: none;
+                                .SwatchImage{
+                                    height: 11px;
+                                    width: 11px;
+                                    border-radius: 50%;
+                                    border: none;
+                                    padding: 0;
+                                }
+                            }
+                        }
+                    }
+                    
+                }
+                .ProductBadge{
+                    display: flex;
+                    position: absolute;
+                    top: 3.5em;
+                    left: 1.8em;
+                    height: 2em;
+                    width: 10em;
+                    .IconTag{
+                        transform: rotate(45deg);
+                        box-sizing: border-box;
+                        height: 9px;
+                        width: 11.5px;
+                        border: 1px solid #1D1D1B;
+                        border-radius: 2px;
+                        margin-top: 0.2em;
+                        margin-right: 0.3em;
+                    }
+                    .TagName{
+                        margin-left: 0.4em;
+                        display: inline-block;
+                        height: 24px;
+                        width: 175px;
+                        color: #1D1D1B;
+                        font-family: "Favorit Light",Arial,sans-serif;
+                        font-size: 0.7rem;
+                        font-weight: 300;
+                        
+                        line-height: 0.9em;
+                        text-align: left;
+                    }
+                }
+            }
+        }
+        
+        
+       
+      }
+    }
+}

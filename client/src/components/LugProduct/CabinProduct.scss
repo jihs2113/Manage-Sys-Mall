@@ -1,0 +1,56 @@
+
+.CabinProduct{
+    width: 47%;
+    overflow: hidden;
+    margin: 0 1em 6em 1em;
+    text-align: center;
+    background-color: #f7f5f4;
+    border-radius: 6px;
+    
+    .Thumb:hover{
+        display: block;
+        height: 100%;
+        overflow: hidden;
+        transform: scale(1.1);
+        transition: all 0.5s;
+        text-decoration: none;
+        color: #0d0901;
+        
+        .ThumbTitle{
+            margin: 2em 0 0 0;
+            font-weight: 600; 
+            font-size: 0.8rem; 
+            color: #6f6f6f; 
+            text-transform: uppercase;
+            
+        }
+        .ThumbName{
+            margin: 0.16em 0 0.7em 0;
+            font-weight: 500;
+            font-size: 1.5rem;
+            line-height: 1.8rem;
+            padding: 0.7em 0;
+        }
+        .Cta{
+            font-weight: 600;
+            font-size: 0.7rem;
+            text-transform: uppercase;
+            
+        }
+        .ThumbProduct{
+            position: relative;
+            height: 19.5em;
+            mix-blend-mode: multiply;
+            .Cabin{
+                max-width: 82em;
+                bottom: -55%;
+                position: absolute; 
+                left: -9999px; 
+                right: -9999px; 
+                bottom: -121%; 
+                width: 115%; 
+                margin: auto;
+            }
+        }
+    }
+}
